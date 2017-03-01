@@ -55,7 +55,7 @@
 
 <!-- < NAVIGATION >.............
 ................................ -->
-<nav class="navbar navbar-fixed-top main-navigation navbar-left" id="main-navigation">
+<nav class="navbar navbar-fixed-top main-navigation navbar-left nav-height" id="main-navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" >
@@ -1253,5 +1253,17 @@
 <script src="js/plugins/jquery.animatebar.min.js"></script>
 <script src="js/plugins/jquery.videoplayer.min.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+
+    $(window).on("scroll touchmove", function () {
+  $('.navbar-brand').toggleClass('tiny', $(document).scrollTop() > 0);
+  $('.nav-height').toggleClass('tiny-height', $(document).scrollTop() > 0);
+});
+
+
+</script>
+
+
 </body>
 </html>
