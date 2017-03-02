@@ -291,6 +291,10 @@ h1, h2, h3, h4, h5, h6, .heading {
 .bold {
   font-weight: 700; }
 
+  .bold-title {
+  font-weight: 700;
+  font-size: 120%; }
+
 .italic {
   font-style: italic; }
 
