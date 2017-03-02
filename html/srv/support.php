@@ -10,11 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         //header('Content-Type: application/json');
         if($model->isValid()) {
             // Email message, change it whatever you wish
-            $subject = "[Your App] Support Form";
+            $subject = "Quero um chatbot!";
 
             // Your e-mail address here.
             // This is where you're going to receive support messages sent through the page
-            $to = 'your@email.here';
+            $to = 'contato@goenfoca.com.br';
 
             // From
             $headers = "From: {$model->email}";
