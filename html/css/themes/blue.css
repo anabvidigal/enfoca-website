@@ -320,16 +320,16 @@ label.error {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #19a9d5;
-  border-color: #1697be; }
+  background-color: #3766af;
+  border-color: #3766af; }
   .btn-primary:focus, .btn-primary.focus {
     color: #ffffff;
     background-color: #1485a7;
     border-color: #093c4c; }
   .btn-primary:hover {
     color: #ffffff;
-    background-color: #1485a7;
-    border-color: #106b87; }
+    background-color: #5749a3;
+    border-color: #5749a3; }
   .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     color: #ffffff;
