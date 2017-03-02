@@ -1150,7 +1150,7 @@ small {
     #main-navigation .navbar-header {
       background-color: #ffffff; }
     #main-navigation .navbar-toggle {
-      min-height: 90px;
+      min-height: 120px;
       margin: 0;
       padding: 0 15px; }
       #main-navigation .navbar-toggle .icon-bar {
