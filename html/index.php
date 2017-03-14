@@ -87,9 +87,7 @@
                 <li><a href="#download"><i class="ion-chatbox"></i>Sobre</a></li>
                 <li><a href="#features"><i class="ion-ios-gear"></i>Recursos</a></li>
                 <li><a href="#keynotes"><i class="ion-ios-pie"></i>Dashboard</a></li>
-                <!--
-                <li><a href="#faqs"><i class="ion-cash"></i>FAQs</a></li>
-                -->
+                <li><a href="#partners"><i class="ion-ios-people"></i>Parceiros</a></li>
                 <li><a href="#support"><i class="ion-ios-compose"></i>Contato</a></li>
             </ul>
         </div>
