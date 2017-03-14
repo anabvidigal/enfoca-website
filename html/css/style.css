@@ -2049,7 +2049,7 @@ section, .section {
     font-size: 72px;
     font-weight: 300; }
   section .container, section .container-fluid, .section .container, .section .container-fluid {
-    padding-top: 120px;
+    padding-top: 10px;
     padding-bottom: 120px;
     position: relative; }
     section .container.half-padding, section .container-fluid.half-padding, .section .container.half-padding, .section .container-fluid.half-padding {
