@@ -11,8 +11,9 @@
 <head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
-    <title>Enfoca Chatbots</title>
-    <meta name="description" content="">
+    <title>Enfoca Chatbots | Soluções cognitivas para relacionamento com clientes</title>
+    <meta name="description" content="Crie soluções para o relacionamento com clientes, para que sua empresa esteja disponível 24 horas por dia para atendimento através de plataformas de mensagem como o Messenger">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
@@ -159,7 +160,7 @@
                             </figure>
                             <div class="widget-text">
                                 <h4>Altamente customizável</h4>
-                                <p>Flows de conversa de acordo com as suas necessidades de atendimento</p>
+                                <p>Flows de conversa criados de acordo com as suas necessidades de atendimento e serviços</p>
                             </div>
                         </div>
                     </div>

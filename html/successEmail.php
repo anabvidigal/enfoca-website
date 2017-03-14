@@ -11,7 +11,7 @@ if(isset($_POST['sendMessage'])){
     $to = "contato@goenfoca.com.br";
     $subject = "Contato via Site - ENFOCA";
     $from = $_POST['email'];
-    $body = '<h1>Olá '.$_POST['name'].' enviou um e-mail</h1> <br />
+    $body = '<h1>Olá, '.$_POST['name'].' enviou um e-mail</h1> <br />
         '.$message.'';
     $headers = "From: ". strip_tags($from) ."\r\n";
     $headers .= "Reply-To: ". strip_tags($from) ."\r\n";
