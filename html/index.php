@@ -359,6 +359,7 @@
             <div class="footer-bottom text-center">
                 <div class="container">
                     <a target="_blank" href="https://www.facebook.com/GoEnfoca"><i class="ion-social-facebook"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/enfocachatbots/"><i class="ion-social-instagram"></i></a>
                     <p>&copy; Enfoca 2017 | Todos os direitos reservados.</p>
                     <a href="#main-header" class="scrollto">
                         <img class="logo" src="img/logo.png" alt="Logo da Enfoca" />
