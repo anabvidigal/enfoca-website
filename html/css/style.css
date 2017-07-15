@@ -807,7 +807,7 @@ small {
     height: auto; }
   .mockup.mockup-horizontal {
     max-width: 100%; }
-  .mockup.mockup-keynotes {
+  .mockup.mockup-dashboard {
     max-width: 902px;
     width: 80%;
     margin-left: -60px; }
@@ -2075,8 +2075,8 @@ section, .section {
   section .subheading, .section .subheading {
     font-size: 19px; } }
 
-/* 8.2 Keynotes ============================ */
-#keynotes .pulse {
+/* 8.2 Keynotes / Dashboard ============================ */
+#dashboard .pulse {
   -webkit-transform: rotateX(45deg);
           transform: rotateX(45deg);
   position: absolute;
@@ -2087,7 +2087,7 @@ section, .section {
   float: left;
   -webkit-transition: all 0.2s;
           transition: all 0.2s; }
-  #keynotes .pulse:before {
+  #dashboard .pulse:before {
     content: "";
     height: 5px;
     position: absolute;
@@ -2115,13 +2115,13 @@ section, .section {
     box-shadow: 0 0 8px 6px #fbaa58, 0 0 12px 10px rgba(255, 255, 255, 0.02), 0 0 12px 14px #fbaa58; }
   100% {
     box-shadow: 0 0 8px 6px rgba(251, 170, 88, 0), 0 0 0px 40px rgba(255, 255, 255, 0.02), 0 0 0px 40px rgba(251, 170, 88, 0); } }
-  #keynotes .pulse.pulse-1 {
+  #dashboard .pulse.pulse-1 {
     top: 235px;
     left: 343px;
     background: #fbaa58;
     -webkit-animation: pulse0 2s 0s ease-out infinite;
             animation: pulse0 2s 0s ease-out infinite; }
-    #keynotes .pulse.pulse-1.active:before {
+    #dashboard .pulse.pulse-1.active:before {
       width: 463px;
       margin-left: -463px;
       background-color: #fbaa58;
@@ -2143,13 +2143,13 @@ section, .section {
     box-shadow: 0 0 8px 6px #49d9c6, 0 0 12px 10px rgba(255, 255, 255, 0.02), 0 0 12px 14px #49d9c6; }
   100% {
     box-shadow: 0 0 8px 6px rgba(73, 217, 198, 0), 0 0 0px 40px rgba(255, 255, 255, 0.02), 0 0 0px 40px rgba(73, 217, 198, 0); } }
-  #keynotes .pulse.pulse-2 {
+  #dashboard .pulse.pulse-2 {
     top: 288px;
     left: 436px;
     background: #49d9c6;
     -webkit-animation: pulse1 2s 0s ease-out infinite;
             animation: pulse1 2s 0s ease-out infinite; }
-    #keynotes .pulse.pulse-2.active:before {
+    #dashboard .pulse.pulse-2.active:before {
       width: 553px;
       margin-left: -553px;
       background-color: #49d9c6;
@@ -2171,111 +2171,111 @@ section, .section {
     box-shadow: 0 0 8px 6px #bd73ff, 0 0 12px 10px rgba(255, 255, 255, 0.02), 0 0 12px 14px #bd73ff; }
   100% {
     box-shadow: 0 0 8px 6px rgba(189, 115, 255, 0), 0 0 0px 40px rgba(255, 255, 255, 0.02), 0 0 0px 40px rgba(189, 115, 255, 0); } }
-  #keynotes .pulse.pulse-3 {
+  #dashboard .pulse.pulse-3 {
     top: 341px;
     left: 529px;
     background: #bd73ff;
     -webkit-animation: pulse2 2s 0s ease-out infinite;
             animation: pulse2 2s 0s ease-out infinite; }
-    #keynotes .pulse.pulse-3.active:before {
+    #dashboard .pulse.pulse-3.active:before {
       width: 643px;
       margin-left: -643px;
       background-color: #bd73ff;
       -webkit-transform: rotate(-4deg);
               transform: rotate(-4deg); }
 
-#keynotes .tab-pane {
+#dashboard .tab-pane {
   padding: 15px 60px 15px 15px;
   border-radius: 4px;
   z-index: 2; }
-  #keynotes .tab-pane.pane-1 {
+  #dashboard .tab-pane.pane-1 {
     background-color: #fffbf7;
     border: 1px solid #fbaa58;
     box-shadow: 3px 3px 18px 0 rgba(251, 170, 88, 0.35); }
-  #keynotes .tab-pane.pane-2 {
+  #dashboard .tab-pane.pane-2 {
     background-color: #f2fcfb;
     border: 1px solid #49d9c6;
     box-shadow: 3px 3px 18px 0 rgba(73, 217, 198, 0.35); }
-  #keynotes .tab-pane.pane-3 {
+  #dashboard .tab-pane.pane-3 {
     background-color: #f9f3ff;
     border: 1px solid #bd73ff;
     box-shadow: 3px 3px 18px 0 rgba(189, 115, 255, 0.35); }
-  #keynotes .tab-pane p {
+  #dashboard .tab-pane p {
     margin-top: 0; }
-  #keynotes .tab-pane h4 {
+  #dashboard .tab-pane h4 {
     color: #242a34; }
 
-#keynotes figure {
+#dashboard figure {
   z-index: 0; }
 
 @media (min-width: 992px) {
-  #keynotes .mockup-keynotes {
+  #dashboard .mockup-dashboard {
     width: 902px; } }
 
 @media (max-width: 1199px) {
-  #keynotes .mockup-keynotes {
+  #dashboard .mockup-dashboard {
     width: 768px; }
-  #keynotes .pulse.pulse-1 {
+  #dashboard .pulse.pulse-1 {
     top: 200px;
     left: 285px; }
-    #keynotes .pulse.pulse-1.active:before {
+    #dashboard .pulse.pulse-1.active:before {
       -webkit-transform: rotate(-36deg);
               transform: rotate(-36deg); }
-  #keynotes .pulse.pulse-2 {
+  #dashboard .pulse.pulse-2 {
     top: 245px;
     left: 364px; }
-    #keynotes .pulse.pulse-2.active:before {
+    #dashboard .pulse.pulse-2.active:before {
       -webkit-transform: rotate(-18deg);
               transform: rotate(-18deg); }
-  #keynotes .pulse.pulse-3 {
+  #dashboard .pulse.pulse-3 {
     top: 290px;
     left: 443px; }
-    #keynotes .pulse.pulse-3.active:before {
+    #dashboard .pulse.pulse-3.active:before {
       -webkit-transform: rotate(-9deg);
               transform: rotate(-9deg); } }
 
 @media (max-width: 991px) {
-  #keynotes {
+  #dashboard {
     /* set size manually to demonstrate how you can configure to your own needs */ }
-    #keynotes .area {
+    #dashboard .area {
       margin-bottom: 45px; }
-    #keynotes .pulse.active:before {
+    #dashboard .pulse.active:before {
       -webkit-transform: rotate(-77deg) !important;
               transform: rotate(-77deg) !important; }
-    #keynotes .pulse.pulse-1.active:before {
+    #dashboard .pulse.pulse-1.active:before {
       width: 750px;
       margin-left: -750px; }
-    #keynotes .pulse.pulse-2.active:before {
+    #dashboard .pulse.pulse-2.active:before {
       width: 650px;
       margin-left: -650px; }
-    #keynotes .pulse.pulse-3.active:before {
+    #dashboard .pulse.pulse-3.active:before {
       width: 650px;
       margin-left: -650px; } }
 
 @media (max-width: 767px) {
-  #keynotes .mockup-keynotes {
+  #dashboard .mockup-dashboard {
     width: 100%;
     margin: 0; }
-  #keynotes .pulse {
+  #dashboard .pulse {
     width: 8px;
     height: 8px; }
-    #keynotes .pulse:before {
+    #dashboard .pulse:before {
       height: 3px; }
-    #keynotes .pulse.pulse-1 {
+    #dashboard .pulse.pulse-1 {
       top: 31%;
       left: 43%; }
-    #keynotes .pulse.pulse-2 {
+    #dashboard .pulse.pulse-2 {
       top: 38%;
       left: 53%; }
-    #keynotes .pulse.pulse-3 {
+    #dashboard .pulse.pulse-3 {
       top: 45%;
       left: 63%; }
-    #keynotes .pulse.pulse-1.active:before {
+    #dashboard .pulse.pulse-1.active:before {
       width: 650px;
       margin-left: -650px; } }
 
 @media (max-width: 480px) {
-  #keynotes .pulse.pulse-1.active:before, #keynotes .pulse.pulse-2.active:before {
+  #dashboard .pulse.pulse-1.active:before, #dashboard .pulse.pulse-2.active:before {
     width: 400px;
     margin-left: -402px; } }
 
@@ -2312,15 +2312,15 @@ section, .section {
       -webkit-transform: rotate(90deg);
               transform: rotate(90deg); }
 
-/* 8.4 Features ============================ */
-#features h4 {
+/* 8.4 Features / Recursos ============================ */
+#frecursos h4 {
   font-weight: 700; }
 
-#features .widget .widget-icon {
+#recursos .widget .widget-icon {
   -webkit-transition: -webkit-transform 0.3s ease-in;
           transition: transform 0.3s ease-in; }
 
-#features .widget:hover .widget-icon {
+#recursos .widget:hover .widget-icon {
   -webkit-transform: translate(0px, -15px) rotate(13deg);
           transform: translate(0px, -15px) rotate(13deg); }
 
@@ -2528,16 +2528,16 @@ section, .section {
   #premium .mockup-features {
     width: 80%; } }
 
-/* 8.7 Support ============================ */
-#support .container {
+/* 8.7 Support / Contato ============================ */
+#contato .container {
   padding-bottom: 0; }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-  #support .mockup-wrapper {
+  #contato .mockup-wrapper {
     margin-top: 90px; } }
 
 @media (max-width: 991px) {
-  #support .container {
+  #contato .container {
     padding-bottom: 120px; } }
 
 /* 8.8 Wynwyg =================================== */
@@ -2545,13 +2545,13 @@ section, .section {
   #wynwyg .mockup-wrapper {
     margin-top: 90px; } }
 
-/* 8.9 Partners =================================== */
-#partners {
+/* 8.9 Partners / Parceiros =================================== */
+#parceiros {
   background: #c1c7d4 url(../img/patterns/partners.png) repeat scroll left top;
   color: #282f3a;
   border-top: 1px solid #b8bfcd;
   border-bottom: 1px solid #b8bfcd; }
-  #partners figure {
+  #parceiros figure {
     display: block;
     min-height: 80px;
     width: 120px;
@@ -2559,42 +2559,42 @@ section, .section {
     opacity: 0.55;
     -webkit-transition: -webkit-transform 0.3s ease-in 0s;
             transition: transform 0.3s ease-in 0s; }
-    #partners figure.partner-1 {
+    #parceiros figure.partner-1 {
       background: url(../img/section/partners/partner-1.svg) no-repeat center center;
       background-size: contain; }
-    #partners figure.partner-2 {
+    #parceiros figure.partner-2 {
       background: url(../img/section/partners/partner-2.svg) no-repeat center center;
       background-size: contain; }
-    #partners figure.partner-3 {
+    #parceiros figure.partner-3 {
       background: url(../img/section/partners/partner-3.svg) no-repeat center center;
       background-size: contain; }
-    #partners figure.partner-4 {
+    #parceiros figure.partner-4 {
       background: url(../img/section/partners/partner-4.svg) no-repeat center center;
       background-size: contain; }
-    #partners figure.partner-5 {
+    #parceiros figure.partner-5 {
       background: url(../img/section/partners/partner-5.svg) no-repeat center center;
       background-size: contain; }
-    #partners figure.partner-6 {
+    #parceiros figure.partner-6 {
       background: url(../img/section/partners/partner-6.svg) no-repeat center center;
       background-size: contain; }
-    #partners figure:hover {
+    #parceiros figure:hover {
       opacity: 1;
       -webkit-transform: scale(1.09);
               transform: scale(1.09); }
 
-/* 8.10 Download =================================== */
-#download {
+/* 8.10 Sobre =================================== */
+#sobre {
   background: url("../img/section/bg/download.jpg") center center/cover no-repeat; }
-  #download, #download h2, #download h3, #download h4 {
+  #sobre, #sobre h2, #sobre h3, #sobre h4 {
     color: #ffffff; }
-  #download h2 {
+  #sobre h2 {
     margin-top: 60px; }
   @media (max-width: 1299px) {
-    #download .mockup-download {
+    #sobre .mockup-sobre {
       margin-top: 180px;
       width: 90%; } }
   @media (max-width: 991px) {
-    #download .mockup-download {
+    #sobre .mockup-sobre {
       margin-top: 180px;
       width: 80%; } }
 

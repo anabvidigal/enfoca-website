@@ -95,11 +95,11 @@
             </a>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#download"><i class="ion-chatbox"></i>Sobre</a></li>
-                <li><a href="#features"><i class="ion-ios-gear"></i>Recursos</a></li>
-                <li><a href="#keynotes"><i class="ion-ios-pie"></i>Dashboard</a></li>
-                <li><a href="#partners"><i class="ion-ios-people"></i>Parceiros</a></li>
-                <li><a href="#support"><i class="ion-ios-compose"></i>Contato</a></li>
+                <li><a href="#sobre"><i class="ion-chatbox"></i>Sobre</a></li>
+                <li><a href="#recursos"><i class="ion-ios-gear"></i>Recursos</a></li>
+                <li><a href="#dashboard"><i class="ion-ios-pie"></i>Dashboard</a></li>
+                <li><a href="#contato"><i class="ion-ios-compose"></i>Contato</a></li>
+                <li><a href="#parceiros"><i class="ion-ios-people"></i>Parceiros</a></li>
             </ul>
         </div>
     </div>
@@ -111,7 +111,7 @@
     <div class="content-wrapper">
         <!-- < HEADER >.................
     ................................ -->
-        <header id="download" class="parallax">
+        <header id="sobre" class="parallax">
             <div class="overlay overlay-5 alpha-5">
                 <div class="container no-padding-b dark">
                     <div class="row">
@@ -129,11 +129,11 @@
                             <br>
                             <h2>A Enfoca oferece chatbots feitos sob medida para sua marca, para você estar disponível 24 horas por dia, 7 dias por semana!</h2>
                             <div class="area">
-                                <a href="#support" target="_self" class="btn btn-primary no-margin" data-scroll-reveal="bottom">Fale com a gente!</a>
+                                <a href="#contato" target="_self" class="btn btn-primary no-margin" data-scroll-reveal="bottom">Fale com a gente!</a>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <figure class="mockup mockup-download pull-right" data-animation="slideInUp">
+                            <figure class="mockup mockup-sobre pull-right" data-animation="slideInUp">
                                 <img src="img/mockup/download.png" alt="">
                             </figure>
                         </div>
@@ -144,7 +144,7 @@
 
         <!-- < About >.................
         ................................ -->
-        <section id="features">
+        <section id="recursos">
             <div class="container">
                 <div class="section-heading text-center">
                     <h2>Nossos <span class="bold">Recursos</span></h2>
@@ -189,7 +189,7 @@
             </div>
         </section>
 
-        <section id="keynotes">
+        <section id="dashboard">
             <div class="container">
                 <div class="section-heading text-center hidden-md hidden-lg">
                     <h2>Acompanhe <span class="bold">seus dados</h2>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-6 col-md-push-6">
-                        <figure class="mockup mockup-keynotes">
+                        <figure class="mockup mockup-dashboard">
                             <img src="img/mockup/keynotes.png" alt="">
                         </figure>
                         <!--
@@ -242,12 +242,12 @@
             </div>
         </section>
 
-        <section id="support">
+        <section id="contato">
             <div class="container no-padding-t">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mockup-wrapper mockup-top hidden-sm hidden-xs">
-                            <figure class="mockup mockup-support">
+                            <figure class="mockup mockup-contato">
                                 <img src="img/mockup/support.png" alt="">
                             </figure>
                         </div>
@@ -298,7 +298,7 @@
             </div>
         </section>
 
-        <section id="partners" class="scroll-rtl">
+        <section id="parceiros" class="scroll-rtl">
             <div class="container light quarter-padding text-center">
                 <h4>Nossos <span class="bold">parceiros</span></h4>
                 <div class="area row row-responsive">
